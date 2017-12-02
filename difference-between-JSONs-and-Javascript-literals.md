@@ -37,6 +37,7 @@ Strings must be wrapped by *doubled quotes `"`*; Strings starting with *single q
 
 ## Numbers
 
-  - Redudant `0`s in head is considered invalid, thus, `001`, `00.1` are all invalid in JSON;
+  - Extra positive sign is not neeeded, `+1` is invalid.
+  - Redudant `0`s in head is considered invalid, thus `001`, `00.1` are all invalid in JSON;
   - Numbers must be decimal system; not hexadecimal or others, thus, `0x01` is in valid in JSON;
 
