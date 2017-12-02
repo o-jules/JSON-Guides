@@ -1,0 +1,9 @@
+{
+  name: 'Huang Jules',
+  "birth-month": 0x0c,
+  "birth-date": 027,
+  "weight(ton)": 00.1,
+  "faceability": Infinity, // coments: 颜值
+  "money": undefined,
+  "job": "font-end developer",
+}
