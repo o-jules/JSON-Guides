@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+
+<style>
+<![CDATA[
+
+/*** styles for raiload diagrams */
+
+svg.railroad-diagram {}
+
+svg.railroad-diagram path {
+  stroke-width: 3;
+  stroke: black;
+  fill: rgba(0, 0, 0, 0);
+}
+
+svg.railroad-diagram text {
+  font: bold 14px monospace;
+  text-anchor: middle;
+}
+
+svg.railroad-diagram text.label {
+  text-anchor: start;
+}
+
+svg.railroad-diagram text.comment {
+  font: italic 12px monospace;
+}
+
+svg.railroad-diagram rect {
+  stroke-width: 3;
+  stroke: black;
+  fill: hsl(120, 100%, 90%);
+}
+
+]]>
+</style>
+<svg class="railroad-diagram" width="265" height="70" viewBox="0 0 265 70">
+<g transform="translate(.5 .5)">
+<path d="M 4 15 v 20 m 0 -10 h 20.5"></path>
+<path d="M24 25h10"></path>
+<g>
+<path d="M34 25h0"></path>
+<path d="M62 25h0"></path>
+<rect x="34" y="14" width="28" height="22" rx="10" ry="10"></rect>
+<text x="48" y="29">&#91;</text>
+</g>
+<path d="M62 25h10"></path>
+<g>
+<path d="M72 25h0"></path>
+<path d="M192 25h0"></path>
+<path d="M72 25a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M92 5h80"></path>
+</g>
+<path d="M172 5a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M72 25h20"></path>
+<g>
+<path d="M92 25h0"></path>
+<path d="M172 25h0"></path>
+<path d="M92 25h10"></path>
+<g>
+<path d="M102 25h0"></path>
+<path d="M162 25h0"></path>
+<rect x="102" y="14" width="60" height="22"></rect>
+<text x="132" y="29">value</text>
+</g>
+<path d="M162 25h10"></path>
+<path d="M102 25a10 10 0 0 0 -10 10v10a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M102 55h16"></path>
+<path d="M146 55h16"></path>
+<rect x="118" y="44" width="28" height="22" rx="10" ry="10"></rect>
+<text x="132" y="59">,</text>
+</g>
+<path d="M162 55a10 10 0 0 0 10 -10v-10a10 10 0 0 0 -10 -10"></path>
+</g>
+<path d="M172 25h20"></path>
+</g>
+<path d="M192 25h10"></path>
+<g>
+<path d="M202 25h0"></path>
+<path d="M230 25h0"></path>
+<rect x="202" y="14" width="28" height="22" rx="10" ry="10"></rect>
+<text x="216" y="29">&#93;</text>
+</g>
+<path d="M230 25h10"></path>
+<path d="M 240 25 h 20 m 0 -10 v 20"></path>
+</g>
+</svg>
+
+</svg>
