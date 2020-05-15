@@ -1,4 +1,4 @@
-# Differences between JSONs and JavaScript object/dictionary literals
+# JSON v.s. JavaScript values
 
 The grammar structure of JSON is less complex than JavaScript object literals. Because JSON is designed for data exchange, serialization and deserialization would be frequently. A simple scheme and exclusion of language specific features is the way to go.
 
@@ -39,8 +39,16 @@ Strings must be wrapped by *doubled quotes `"`*; Strings starting with *single q
 
 ## Numbers
 
-JSON values human-readability. So it is agnostic about number formats.
+- Format
 
-  - Extra positive sign is not neeeded, `+1` is invalid.
+  JSON values human-readability. So it is agnostic about number formats.
+
+  - Extra positive sign in JSON is not invalid, e.g. `+1`.
   - Redudant `0`s in head is considered invalid, thus `001`, `00.1` are all invalid in JSON;
   - Numbers must be decimal system; not hexadecimal or others, thus, `0x01` is in valid in JSON;
+
+- Precision
+
+  JSON spec has no limit in number precisions, while JavaScript does.
+
+  Conversion from JSON to JavaScript may cause precision loss in number.
